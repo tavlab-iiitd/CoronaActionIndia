@@ -17,11 +17,15 @@
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <!-- Stylesheet
     ================================================== -->
 <link rel="stylesheet" type="text/css"  href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link rel="stylesheet" type="text/css" href="css/modal.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -90,6 +94,84 @@
   </div>
 </div>
 
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+       <div class="about-text">
+            <div class="section-title text-center center">
+              <h1>Todays advisory from the Government</h1>
+              <hr>
+        </div>
+      <!--marquee direction = "up"--> 
+      <div style="border: 10px solid; text-align: center;">
+        <h3>
+          Gathering with over 50 people banned, weddings excluded in Delhi amid coronavirus
+        </h3>
+        <h5>March 16th 2020</h5>
+        <p>
+          Delhi CM Arvind Kejriwal on Monday said that all gyms, night clubs, spas will be closed till March 31 amid the coronavirus outbreak. "Any gathering with more than 50 persons excluding weddings will not be allowed", he added. "For weddings also, we request if they can be postponed them please do so", Kejriwal further said.
+        </p>
+      </div>
+      
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <h3>Covid-19 Information</h3>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/i1.png" alt="InfoGraphics" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="img/i2.png" alt="InfoGraphics" style="width:100%;">
+      </div>
+    
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Modal
+<center>
+<div class="section-title text-center center">
+  <div style="width:80%; height:80%;
+       background-size: cover; text-align: center; display: block;">
+  <div class="container">
+    <center>
+    <br><img id="myImg" src="img/ok.jpg" alt="InfoGraphic of the Day" style="width:80%; height:80%;" class="responsive">
+  </center>
+    <div id="myModal" class="modal img-responsive">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+</div>
+</center> -->
+
+<br>
  <!-- Tab links -->
 <div id="about">
   <div class="container">
@@ -350,67 +432,6 @@
          </div>
         </div>
 
-        <div class="row">
-          <h3>          &nbsp;          &nbsp;Team</h3>
-
-          <div class="portfolio-items">
-
-            <div class="col-sm-3">
-              <img src="img/portfolio/tavsir.jpeg" height= 80% width= 80%;>
-              <div class="container">
-                <p>Tavpritesh Sethi (Mentor)</p>
-                <p>Assistant Professor (CB) @IIITD</p>
-                <br>
-                <p>
-                  <a href="https://twitter.com/Tavpritesh"><i class="fa fa-twitter"></i></a>
-                  <a href="https://github.com/tavlab-iiitd"><i class="fa fa-github"></i></a>
-                  <a href="https://www.linkedin.com/in/tavpritesh/"><i class="fa fa-linkedin"></i></a>
-                </p>
-              </div>
-            </div>
-
-            <div class="col-sm-3">
-              <img src="img/portfolio/download.png" height= 80% width= 80%;>
-              <div class="container">
-                <p>Rohan Pandey (Developer)</p>
-                <p>Undergrad CSE @ Shiv Nadar University</p>
-                <p>
-                  <a href="https://twitter.com/therohanpandey1"><i class="fa fa-twitter"></i></a>
-                  <a href="https://github.com/rohanpandey"><i class="fa fa-github"></i></a>
-                  <a href="https://www.linkedin.com/in/rohan-pandey-145170175/"><i class="fa fa-linkedin"></i></a>
-                </p>
-              </div>
-            </div>
-      
-            <div class="col-sm-3">
-              <img src="img/portfolio/Kanav.jpg" height= 80% width= 80%;>
-              <div class="container">
-                <p>Kanav Bhagat (Developer)</p>
-                <p>Undergrad CSE @IIITD</p>
-                <br>
-                <p>
-                  <a href="https://twitter.com/BhagatKanav"><i class="fa fa-twitter"></i></a>
-                  <a href="https://github.com/kanavbhagat"><i class="fa fa-github"></i></a>
-                  <a href="https://www.linkedin.com/in/kanav-bhagat-133229130/"><i class="fa fa-linkedin"></i></a>
-                </p>
-              </div>
-            </div>
-
-            <div class="col-sm-3">
-              <img src="img/portfolio/vaibhav.jpg" height= 80% width= 80%;>
-              <div class="container">
-                <p>Vaibhav Gautam (Developer)</p>
-                <p>Undergrad CSE @Shiv Nadar University</p>
-                <p>
-                  <a href="https://twitter.com/VAIBHAVGAUTAM13"><i class="fa fa-twitter"></i></a>
-                  <a href="https://github.com/VAICR7BHAV"><i class="fa fa-github"></i></a>
-                  <a href="https://www.linkedin.com/in/vaibhav-gautam-171775187/"><i class="fa fa-linkedin"></i></a>
-                </p>
-              </div>
-            </div>
-
-          </div>
-              </div>
         <!--div class="col-sm-6 col-md-3 col-lg-3 app">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project description" rel="prettyPhoto">
@@ -479,7 +500,79 @@
   </div>
 </div>
 
+<div id="testimonials" class="text-center" style="background-color: #D3D3D3">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Team</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md  col-md-offset-1">
+        <div class="row testimonials">
+          <div class="container">
+          <div class="col-sm-11">
+            
+              <img src="img/portfolio/tavsir.jpeg" height= 30% width= 30%;>
+              
+                <p>
+                  <h3>Tavpritesh Sethi (Mentor)</h3>
+                Assistant Professor (CB) @IIITD
+                <br>
+                </p>
+              </div>
+          </div>
+        </div>
+        <div class="row testimonials">
+          <div class="col-sm-4">
+            <blockquote>
+              <div class="clients-name">
+                <p><strong>Rohan Pandey(Developer, Core team)</strong><br>
+                  <em>Undergrad CSE @ Shiv Nadar University</em></p>
+              </div>
+            </blockquote>
+          </div>
+           <div class="col-sm-4">
+            <blockquote>
+              <div class="clients-name">
+                <p><strong>Kanav Bhagat(Developer, Core team)</strong><br>
+                  <em>Undergrad CSE @ IIIT- Delhi 
 
+                     </em></p>
+              </div>
+            </blockquote>
+          </div>
+           <div class="col-sm-4">
+            <blockquote>
+              <div class="clients-name">
+                <p><strong>Vaibhav Gautam(Developer, Core team)</strong><br>
+                  <em>Undergrad CSE @ Shiv Nadar University</em></p>
+              </div>
+            </blockquote>
+          </div>
+
+          <div class="col-sm-4">
+            <blockquote>
+              <div class="clients-name">
+                <p><strong>Harsh Bandhey(Developer)</strong><br>
+                  <em>Undergrad CSAM @ IIIT- Delhi</em></p>
+              </div>
+            </blockquote>
+          </div>
+
+          <div class="col-sm-4">
+            <blockquote>
+              <div class="clients-name">
+                <p><strong>Somya Srivastava (Developer)</strong><br>
+                  <em>Undergrad CSE @ Shiv Nadar University</em></p>
+              </div>
+            </blockquote>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Testimonials Section -->
 <!--div id="testimonials" class="text-center">
   <div class="container">
@@ -589,6 +682,29 @@ target="_blank">
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/abouttabs.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script> 
 
 </body>
 </html>
