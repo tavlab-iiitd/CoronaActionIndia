@@ -621,6 +621,23 @@ header .intro-text {
 }
 }
 
+@media (max-width: 1024px) {
+#about img {
+	float: left;
+	margin-bottom: 20px;
+}
+}
+
+.counter{
+	margin-left: 25%; 
+	width: 30%;
+}
+@media (max-width: 1024px) {
+.counter img {
+	margin-left: 35% 
+
+}
+}
 
 /* Style the tab */
 .tab {
